@@ -3,34 +3,11 @@ import './About.css';
 export default function About() {
   const members = [
     { 
-      name: "Aaron Stanway", 
-      role: "Sophomore", 
-      bio: "I currently study Financial Mathematics at Seton Hall. I am looking to use my financial modeling and coding skills to either work as a Quantitative Researcher for a Hedge fund or create my own.",
-      img: "src/assets/pfps/aaron.jpg"
-    },
-    { 
-      name: "Brysen Pfingsten", 
-      role: "Sophomore", 
-      bio: "I am a Computer Science major with a research interest in Constraint Logic Programming. After college, I plan on moving to New York and working in the tech sector.",
-      img: "src/assets/pfps/brysen.jpeg" },
-    { 
-      name: "Collin Delbridge", 
-      role: "Junior", 
-      bio: "I'm a Computer Science major currently interning at GDIT in the Network Administration department. I’m also involved in cybersecurity research and plan to continue growing as a software developer.",
-      img: "src/assets/pfps/colin.jpg"
-    },
-    { 
-      name: "Dimitri Short", 
+      name: "Marco Ponce", 
       role: "Senior", 
-      bio: "I'm Dimitri, I'm a computer science and data science student here at Seton Hall with a strong interest in technology. I've always been interested by how technology really works which has led me to enter this field. ",
-      img: "src/assets/pfps/dimitri.jpeg"
-    },
-    { 
-      name: "Thorin Collins", 
-      role: "Sophomore", 
-      bio: "I'm an IT Management major with a minor in cybersecurity. I currently work part-time as a Security Operations Center (SOC) analyst. After graduation, I plan to attend law school and pursue a career in cybersecurity law.",
-      img: "src/assets/pfps/thorin.jpg"
-    },
+      bio: "I am a Computer Science major at Seton Hall doing research in Logic Programming and Cybersecurity. After college, I plan to work as a Data Scientist or Software Engineer.",
+      img: "src/assets/pfps/marco.jpg"
+    }
   ];
 
   return (
