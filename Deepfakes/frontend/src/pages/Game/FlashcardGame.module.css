@@ -372,4 +372,3 @@
    .errorMessage { color: #f87171; font-weight: 600; padding: 2rem; text-align: center; }
    
    @keyframes spin { to { transform: rotate(360deg); } }
-   
