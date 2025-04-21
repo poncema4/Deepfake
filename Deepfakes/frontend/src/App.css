@@ -1,0 +1,56 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Update these styles in your App.css */
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100%); /* Account for image stream */
+  margin-right: 250px; /* Space for image stream */
+}
+
+.navbar {
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem 2rem;
+  background-color: #1a1a1a;
+  border-bottom: 1px solid #333;
+}
+
+.main-content {
+  padding: 2rem;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+}
+
+/* Hide image stream on mobile */
+@media (max-width: 1200px) {
+  .app {
+    max-width: 100%;
+    margin-right: 0;
+  }
+  
+  .image-stream {
+    display: none;
+  }
+}

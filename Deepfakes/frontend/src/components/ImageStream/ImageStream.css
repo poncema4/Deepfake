@@ -1,0 +1,46 @@
+.image-stream {
+  position: fixed;
+  right: 0;
+  top: 80px;
+  width: 250px;
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background-color: #1a1a1a;
+  border-left: 1px solid #333;
+  z-index: 100;
+  padding-top: 60px; /* Adjust based on navbar height */
+}
+
+.scrolling-container {
+  width: 100%;
+  animation: scroll linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-50%); /* Half the container height */
+  }
+}
+
+.image-wrapper {
+  width: 100%;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+.stream-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1200px) {
+  .image-stream {
+    display: none;
+  }
+}

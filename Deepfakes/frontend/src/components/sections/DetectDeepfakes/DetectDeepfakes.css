@@ -1,0 +1,37 @@
+#detect {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  #detect h2 {
+    color: #646cff;
+    margin-bottom: 1rem;
+  }
+  
+  .detection-list {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+  }
+  
+  .detection-list li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .tools {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid #333;
+  }
+  
+  .tools h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    #detect {
+      padding: 1.5rem;
+    }
+  }

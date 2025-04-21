@@ -1,0 +1,22 @@
+#what {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  
+  #what h2 {
+    color: #646cff;
+    margin-bottom: 1rem;
+  }
+  
+  #what p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  @media (max-width: 768px) {
+    #what {
+      padding: 1.5rem;
+    }
+  }
