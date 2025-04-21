@@ -209,5 +209,4 @@ export default function Model() {
 </section>
         </div>
       );
-    }
-    
+    } 
